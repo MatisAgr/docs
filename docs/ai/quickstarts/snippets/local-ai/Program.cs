@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.AI;
 
 IChatClient chatClient =
-    new OllamaChatClient(new Uri("http://localhost:11434/"), "phi3:mini");
+    new OllamaChatClient(new Uri("http://localhost:11434/"), "phi4-mini");
 
 // Start the conversation with context for the AI model
 List<ChatMessage> chatHistory = new();
